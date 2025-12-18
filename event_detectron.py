@@ -12,7 +12,7 @@ import av
 
 # ---------------- CONFIG ---------------- #
 
-VIDEO_PATH = "input.mp4"
+VIDEO_PATH = "input5.mp4"
 OUTPUT_DIR = "outputs"
 CLIP_DIR = os.path.join(OUTPUT_DIR, "clips")
 
@@ -35,13 +35,16 @@ yolo = YOLO("yolov8n.pt")
 action_model = slowfast_r50(pretrained=True)
 action_model = action_model.to(DEVICE).eval()
 
-# Kinetics labels (simplified)
-KINETICS_CLASSES = {
+# Map Kinetics class indices → readable actions
+KINETICS_ACTION_MAP = {
+    412: "running",
+    405: "walking",
+    401: "falling",
     386: "punching",
     387: "kicking",
     388: "fighting",
-    412: "running",
-    401: "falling"
+    398: "chasing",
+    390: "interacting"
 }
 
 
@@ -94,7 +97,7 @@ def run_action_recognition(clip_path):
             preds = action_model(clip)
             probs = torch.softmax(preds, dim=1)[0]
 
-        for idx, label in KINETICS_CLASSES.items():
+        for idx, label in KINETICS_ACTION_MAP.items():
             if probs[idx].item() > ACTION_THRESHOLD:
                 return label, float(probs[idx].item())
 
