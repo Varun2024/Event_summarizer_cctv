@@ -11,7 +11,7 @@ import av
 
 # ================= CONFIG ================= #
 
-VIDEO_PATH = "input.mp4"
+VIDEO_PATH = "input6.mp4"
 OUTPUT_DIR = "outputs"
 CLIP_DIR = os.path.join(OUTPUT_DIR, "clips")
 MICRO_CLIP_DIR = os.path.join(OUTPUT_DIR, "micro_clips")

@@ -1,11 +1,11 @@
 {
-  "video": "input.mp4",
-  "duration": 98.57,
+  "video": "input6.mp4",
+  "duration": 7.13,
   "macro_events": [
     {
       "id": "macro_000",
       "start": 0,
-      "end": 98.57,
+      "end": 7.13,
       "type": "scene_activity_summary",
       "clip": "outputs\\clips/summary.mp4"
     }
@@ -13,57 +13,15 @@
   "micro_events": [
     {
       "id": "micro_000",
-      "time": 35.7,
+      "time": 1.17,
       "type": "micro_violence (slap/push)",
       "clip": "outputs\\micro_clips/micro_000.mp4"
     },
     {
       "id": "micro_001",
-      "time": 47.57,
+      "time": 2.63,
       "type": "micro_violence (slap/push)",
       "clip": "outputs\\micro_clips/micro_001.mp4"
-    },
-    {
-      "id": "micro_002",
-      "time": 48.93,
-      "type": "micro_violence (slap/push)",
-      "clip": "outputs\\micro_clips/micro_002.mp4"
-    },
-    {
-      "id": "micro_003",
-      "time": 85.57,
-      "type": "micro_violence (slap/push)",
-      "clip": "outputs\\micro_clips/micro_003.mp4"
-    },
-    {
-      "id": "micro_004",
-      "time": 86.6,
-      "type": "micro_violence (slap/push)",
-      "clip": "outputs\\micro_clips/micro_004.mp4"
-    },
-    {
-      "id": "micro_005",
-      "time": 87.63,
-      "type": "micro_violence (slap/push)",
-      "clip": "outputs\\micro_clips/micro_005.mp4"
-    },
-    {
-      "id": "micro_006",
-      "time": 89.83,
-      "type": "micro_violence (slap/push)",
-      "clip": "outputs\\micro_clips/micro_006.mp4"
-    },
-    {
-      "id": "micro_007",
-      "time": 91.17,
-      "type": "micro_violence (slap/push)",
-      "clip": "outputs\\micro_clips/micro_007.mp4"
-    },
-    {
-      "id": "micro_008",
-      "time": 92.2,
-      "type": "micro_violence (slap/push)",
-      "clip": "outputs\\micro_clips/micro_008.mp4"
     }
   ]
 }
