@@ -1,27 +1,642 @@
 {
-  "video": "input6.mp4",
-  "duration": 7.13,
-  "macro_events": [
+  "video": "input.mp4",
+  "events": [
     {
-      "id": "macro_000",
-      "start": 0,
-      "end": 7.13,
-      "type": "scene_activity_summary",
-      "clip": "outputs\\clips/summary.mp4"
-    }
-  ],
-  "micro_events": [
-    {
-      "id": "micro_000",
-      "time": 1.17,
-      "type": "micro_violence (slap/push)",
-      "clip": "outputs\\micro_clips/micro_000.mp4"
+      "id": "event_000",
+      "time": 0.73,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_000.mp4"
     },
     {
-      "id": "micro_001",
+      "id": "event_001",
+      "time": 0.77,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_001.mp4"
+    },
+    {
+      "id": "event_002",
+      "time": 1.1,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_002.mp4"
+    },
+    {
+      "id": "event_003",
+      "time": 1.17,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_003.mp4"
+    },
+    {
+      "id": "event_004",
+      "time": 1.47,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_004.mp4"
+    },
+    {
+      "id": "event_005",
       "time": 2.63,
-      "type": "micro_violence (slap/push)",
-      "clip": "outputs\\micro_clips/micro_001.mp4"
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_005.mp4"
+    },
+    {
+      "id": "event_006",
+      "time": 2.93,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_006.mp4"
+    },
+    {
+      "id": "event_007",
+      "time": 3.17,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_007.mp4"
+    },
+    {
+      "id": "event_008",
+      "time": 3.27,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_008.mp4"
+    },
+    {
+      "id": "event_009",
+      "time": 3.83,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_009.mp4"
+    },
+    {
+      "id": "event_010",
+      "time": 4.3,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_010.mp4"
+    },
+    {
+      "id": "event_011",
+      "time": 4.33,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_011.mp4"
+    },
+    {
+      "id": "event_012",
+      "time": 4.43,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_012.mp4"
+    },
+    {
+      "id": "event_013",
+      "time": 5.4,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_013.mp4"
+    },
+    {
+      "id": "event_014",
+      "time": 13.73,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_014.mp4"
+    },
+    {
+      "id": "event_015",
+      "time": 17.7,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_015.mp4"
+    },
+    {
+      "id": "event_016",
+      "time": 18.4,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_016.mp4"
+    },
+    {
+      "id": "event_017",
+      "time": 20.03,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_017.mp4"
+    },
+    {
+      "id": "event_018",
+      "time": 20.4,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_018.mp4"
+    },
+    {
+      "id": "event_019",
+      "time": 20.83,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_019.mp4"
+    },
+    {
+      "id": "event_020",
+      "time": 21.3,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_020.mp4"
+    },
+    {
+      "id": "event_021",
+      "time": 21.33,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_021.mp4"
+    },
+    {
+      "id": "event_022",
+      "time": 25.27,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_022.mp4"
+    },
+    {
+      "id": "event_023",
+      "time": 25.3,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_023.mp4"
+    },
+    {
+      "id": "event_024",
+      "time": 27.6,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_024.mp4"
+    },
+    {
+      "id": "event_025",
+      "time": 29.0,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_025.mp4"
+    },
+    {
+      "id": "event_026",
+      "time": 29.13,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_026.mp4"
+    },
+    {
+      "id": "event_027",
+      "time": 29.17,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_027.mp4"
+    },
+    {
+      "id": "event_028",
+      "time": 30.8,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_028.mp4"
+    },
+    {
+      "id": "event_029",
+      "time": 30.83,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_029.mp4"
+    },
+    {
+      "id": "event_030",
+      "time": 31.9,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_030.mp4"
+    },
+    {
+      "id": "event_031",
+      "time": 31.93,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_031.mp4"
+    },
+    {
+      "id": "event_032",
+      "time": 33.87,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_032.mp4"
+    },
+    {
+      "id": "event_033",
+      "time": 35.8,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_033.mp4"
+    },
+    {
+      "id": "event_034",
+      "time": 36.67,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_034.mp4"
+    },
+    {
+      "id": "event_035",
+      "time": 37.03,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_035.mp4"
+    },
+    {
+      "id": "event_036",
+      "time": 37.5,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_036.mp4"
+    },
+    {
+      "id": "event_037",
+      "time": 37.83,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_037.mp4"
+    },
+    {
+      "id": "event_038",
+      "time": 38.6,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_038.mp4"
+    },
+    {
+      "id": "event_039",
+      "time": 40.47,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_039.mp4"
+    },
+    {
+      "id": "event_040",
+      "time": 41.87,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_040.mp4"
+    },
+    {
+      "id": "event_041",
+      "time": 43.63,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_041.mp4"
+    },
+    {
+      "id": "event_042",
+      "time": 43.87,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_042.mp4"
+    },
+    {
+      "id": "event_043",
+      "time": 44.37,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_043.mp4"
+    },
+    {
+      "id": "event_044",
+      "time": 50.7,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_044.mp4"
+    },
+    {
+      "id": "event_045",
+      "time": 50.97,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_045.mp4"
+    },
+    {
+      "id": "event_046",
+      "time": 52.1,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_046.mp4"
+    },
+    {
+      "id": "event_047",
+      "time": 56.6,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_047.mp4"
+    },
+    {
+      "id": "event_048",
+      "time": 58.9,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_048.mp4"
+    },
+    {
+      "id": "event_049",
+      "time": 59.77,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_049.mp4"
+    },
+    {
+      "id": "event_050",
+      "time": 62.0,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_050.mp4"
+    },
+    {
+      "id": "event_051",
+      "time": 65.37,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_051.mp4"
+    },
+    {
+      "id": "event_052",
+      "time": 65.43,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_052.mp4"
+    },
+    {
+      "id": "event_053",
+      "time": 65.53,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_053.mp4"
+    },
+    {
+      "id": "event_054",
+      "time": 67.13,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_054.mp4"
+    },
+    {
+      "id": "event_055",
+      "time": 70.43,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_055.mp4"
+    },
+    {
+      "id": "event_056",
+      "time": 77.77,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_056.mp4"
+    },
+    {
+      "id": "event_057",
+      "time": 78.13,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_057.mp4"
+    },
+    {
+      "id": "event_058",
+      "time": 78.17,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_058.mp4"
+    },
+    {
+      "id": "event_059",
+      "time": 78.4,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_059.mp4"
+    },
+    {
+      "id": "event_060",
+      "time": 78.97,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_060.mp4"
+    },
+    {
+      "id": "event_061",
+      "time": 81.3,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_061.mp4"
+    },
+    {
+      "id": "event_062",
+      "time": 81.4,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_062.mp4"
+    },
+    {
+      "id": "event_063",
+      "time": 81.53,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_063.mp4"
+    },
+    {
+      "id": "event_064",
+      "time": 81.87,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_064.mp4"
+    },
+    {
+      "id": "event_065",
+      "time": 82.4,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_065.mp4"
+    },
+    {
+      "id": "event_066",
+      "time": 84.27,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_066.mp4"
+    },
+    {
+      "id": "event_067",
+      "time": 84.8,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_067.mp4"
+    },
+    {
+      "id": "event_068",
+      "time": 88.2,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_068.mp4"
+    },
+    {
+      "id": "event_069",
+      "time": 88.33,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_069.mp4"
+    },
+    {
+      "id": "event_070",
+      "time": 89.17,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_070.mp4"
+    },
+    {
+      "id": "event_071",
+      "time": 89.9,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_071.mp4"
+    },
+    {
+      "id": "event_072",
+      "time": 89.93,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_072.mp4"
+    },
+    {
+      "id": "event_073",
+      "time": 90.0,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_073.mp4"
+    },
+    {
+      "id": "event_074",
+      "time": 90.03,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_074.mp4"
+    },
+    {
+      "id": "event_075",
+      "time": 90.13,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_075.mp4"
+    },
+    {
+      "id": "event_076",
+      "time": 90.37,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_076.mp4"
+    },
+    {
+      "id": "event_077",
+      "time": 90.57,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_077.mp4"
+    },
+    {
+      "id": "event_078",
+      "time": 90.67,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_078.mp4"
+    },
+    {
+      "id": "event_079",
+      "time": 91.13,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_079.mp4"
+    },
+    {
+      "id": "event_080",
+      "time": 91.33,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_080.mp4"
+    },
+    {
+      "id": "event_081",
+      "time": 91.57,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_081.mp4"
+    },
+    {
+      "id": "event_082",
+      "time": 91.63,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_082.mp4"
+    },
+    {
+      "id": "event_083",
+      "time": 91.73,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_083.mp4"
+    },
+    {
+      "id": "event_084",
+      "time": 92.77,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_084.mp4"
+    },
+    {
+      "id": "event_085",
+      "time": 94.47,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_085.mp4"
+    },
+    {
+      "id": "event_086",
+      "time": 94.53,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_086.mp4"
+    },
+    {
+      "id": "event_087",
+      "time": 95.23,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_087.mp4"
+    },
+    {
+      "id": "event_088",
+      "time": 95.5,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_088.mp4"
+    },
+    {
+      "id": "event_089",
+      "time": 96.23,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_089.mp4"
+    },
+    {
+      "id": "event_090",
+      "time": 97.73,
+      "labels": [],
+      "severity": "low",
+      "clip": "outputs\\events\\event_090.mp4"
     }
   ]
 }
