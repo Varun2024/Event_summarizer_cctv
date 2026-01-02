@@ -1,0 +1,39 @@
+# Core numerical + utilities
+numpy>=1.23
+tqdm>=4.66
+
+# Computer vision
+opencv-python>=4.8
+
+# Deep learning
+torch>=2.0
+torchvision>=0.15
+pytorchvideo>=0.1.5
+
+# Video IO
+av>=10.0
+
+# Detection + Tracking
+ultralytics>=8.0.200
+supervision>=0.18.0
+lap>=0.4.0
+
+# Optional but recommended (ByteTrack deps)
+cython>=3.0
+
+
+# 🔧 SYSTEM-LEVEL REQUIREMENTS (IMPORTANT)
+
+# These are NOT Python packages, but your project depends on them:
+
+# 🟦 FFmpeg (REQUIRED)
+
+# Needed for clip extraction
+
+# Must be installed system-wide
+
+# Windows
+
+# Download: https://ffmpeg.org/download.html
+
+# Add ffmpeg/bin to PATH
